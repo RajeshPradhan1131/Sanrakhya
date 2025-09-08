@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero text-center text-white d-flex align-items-center justify-content-center">
+    <div>
+        <h1 class="display-3 fw-bold">Sanrakhya 🏥</h1>
+        <p class="lead">Your emergency assistant to find hospitals, check bed availability, and save lives.</p>
+        <a href="#" class="btn btn-lg btn-warning shadow-lg mt-3">
+            🚑 Find Nearest Hospital
+        </a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="container text-center my-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card p-4 shadow-sm border-0 rounded-3">
+                <h3>🏨 Hospitals</h3>
+                <p>Check live data of hospitals and their available beds.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4 shadow-sm border-0 rounded-3">
+                <h3🩸> Blood Availability</h3>
+                <p>Know where to find required blood groups in emergencies.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4 shadow-sm border-0 rounded-3">
+                <h3>📍 Nearest Help</h3>
+                <p>Locate the nearest hospital with Google Maps integration.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #f4f7fb, #eaf2f8);
+}
+
+h1 {
+    color: #2c3e50;
+}
+/* Hero Section */
+.hero {
+    height: 70vh;
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+/* Cards */
+.card {
+    transition: 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Button */
+.btn-warning {
+    background-color: #ff7b54;
+    border: none;
+}
+.btn-warning:hover {
+    background-color: #ff5722;
+}
